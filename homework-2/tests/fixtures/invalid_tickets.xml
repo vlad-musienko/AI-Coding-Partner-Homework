@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tickets>
+  <ticket>
+    <customer_id>CUST201</customer_id>
+    <customer_email>invalid-email-format</customer_email>
+    <customer_name>Adam Smith</customer_name>
+    <subject>Test Subject</subject>
+    <description>Too short</description>
+    <category>account_access</category>
+    <priority>high</priority>
+    <status>new</status>
+    <metadata>
+      <source>web_form</source>
+    </metadata>
+  </ticket>
+  <ticket>
+    <customer_id></customer_id>
+    <customer_email>betty@example.com</customer_email>
+    <customer_name>Betty Jones</customer_name>
+    <subject>Missing customer ID</subject>
+    <description>This ticket is missing the required customer_id field</description>
+    <category>technical_issue</category>
+    <priority>high</priority>
+    <status>new</status>
+    <metadata>
+      <source>email</source>
+    </metadata>
+  </ticket>
+</tickets>

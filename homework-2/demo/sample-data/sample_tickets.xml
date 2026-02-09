@@ -1,0 +1,692 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tickets>
+  <ticket>
+    <customer_id>CUST201</customer_id>
+    <customer_email>adam.smith@example.com</customer_email>
+    <customer_name>Adam Smith</customer_name>
+    <subject>Login issues after password change</subject>
+    <description>After changing my password, I can no longer login. The system says my credentials are invalid even though I'm using the new password.</description>
+    <category>account_access</category>
+    <priority>high</priority>
+    <status>new</status>
+    <assigned_to></assigned_to>
+    <tags>
+      <tag>login</tag>
+      <tag>password</tag>
+    </tags>
+    <metadata>
+      <source>web_form</source>
+      <browser>Chrome</browser>
+      <device_type>desktop</device_type>
+    </metadata>
+  </ticket>
+  <ticket>
+    <customer_id>CUST202</customer_id>
+    <customer_email>betty.jones@example.com</customer_email>
+    <customer_name>Betty Jones</customer_name>
+    <subject>Application crashes on mobile</subject>
+    <description>The mobile app crashes every time I try to open the reports section. This has been happening for the past week.</description>
+    <category>technical_issue</category>
+    <priority>high</priority>
+    <status>new</status>
+    <assigned_to></assigned_to>
+    <tags>
+      <tag>crash</tag>
+      <tag>mobile</tag>
+      <tag>reports</tag>
+    </tags>
+    <metadata>
+      <source>email</source>
+      <device_type>mobile</device_type>
+    </metadata>
+  </ticket>
+  <ticket>
+    <customer_id>CUST203</customer_id>
+    <customer_email>carl.brown@example.com</customer_email>
+    <customer_name>Carl Brown</customer_name>
+    <subject>Refund for duplicate charge</subject>
+    <description>I was charged twice for my monthly subscription. Please refund one of the charges as soon as possible.</description>
+    <category>billing_question</category>
+    <priority>medium</priority>
+    <status>new</status>
+    <assigned_to></assigned_to>
+    <tags>
+      <tag>refund</tag>
+      <tag>duplicate</tag>
+      <tag>billing</tag>
+    </tags>
+    <metadata>
+      <source>chat</source>
+      <device_type>desktop</device_type>
+    </metadata>
+  </ticket>
+  <ticket>
+    <customer_id>CUST204</customer_id>
+    <customer_email>donna.wilson@example.com</customer_email>
+    <customer_name>Donna Wilson</customer_name>
+    <subject>Request for email notifications</subject>
+    <description>It would be helpful to receive email notifications when important events occur in the system.</description>
+    <category>feature_request</category>
+    <priority>low</priority>
+    <status>new</status>
+    <assigned_to></assigned_to>
+    <tags>
+      <tag>notifications</tag>
+      <tag>email</tag>
+    </tags>
+    <metadata>
+      <source>web_form</source>
+      <browser>Firefox</browser>
+      <device_type>desktop</device_type>
+    </metadata>
+  </ticket>
+  <ticket>
+    <customer_id>CUST205</customer_id>
+    <customer_email>edward.davis@example.com</customer_email>
+    <customer_name>Edward Davis</customer_name>
+    <subject>Pagination not working correctly</subject>
+    <description>When I navigate to page 2 of the results, it shows the same items as page 1. Steps to reproduce: 1. Search for items 2. Click page 2 3. Same results appear. Expected: Different results on each page.</description>
+    <category>bug_report</category>
+    <priority>medium</priority>
+    <status>new</status>
+    <assigned_to></assigned_to>
+    <tags>
+      <tag>pagination</tag>
+      <tag>bug</tag>
+    </tags>
+    <metadata>
+      <source>web_form</source>
+      <browser>Safari</browser>
+      <device_type>desktop</device_type>
+    </metadata>
+  </ticket>
+  <ticket>
+    <customer_id>CUST206</customer_id>
+    <customer_email>fran.miller@example.com</customer_email>
+    <customer_name>Fran Miller</customer_name>
+    <subject>Urgent: Cannot access production data</subject>
+    <description>This is critical! Our entire team cannot access production data. This is blocking all our work and affecting our customers.</description>
+    <category>account_access</category>
+    <priority>urgent</priority>
+    <status>new</status>
+    <assigned_to></assigned_to>
+    <tags>
+      <tag>critical</tag>
+      <tag>production</tag>
+      <tag>access</tag>
+    </tags>
+    <metadata>
+      <source>phone</source>
+      <device_type>desktop</device_type>
+    </metadata>
+  </ticket>
+  <ticket>
+    <customer_id>CUST207</customer_id>
+    <customer_email>gary.moore@example.com</customer_email>
+    <customer_name>Gary Moore</customer_name>
+    <subject>Database connection errors</subject>
+    <description>Getting frequent database connection errors. Error message: Connection timeout after 30 seconds.</description>
+    <category>technical_issue</category>
+    <priority>urgent</priority>
+    <status>new</status>
+    <assigned_to></assigned_to>
+    <tags>
+      <tag>database</tag>
+      <tag>connection</tag>
+      <tag>error</tag>
+    </tags>
+    <metadata>
+      <source>email</source>
+      <device_type>desktop</device_type>
+    </metadata>
+  </ticket>
+  <ticket>
+    <customer_id>CUST208</customer_id>
+    <customer_email>helen.taylor@example.com</customer_email>
+    <customer_name>Helen Taylor</customer_name>
+    <subject>Question about annual subscription discount</subject>
+    <description>Do you offer a discount if I switch from monthly to annual billing? If so, what percentage?</description>
+    <category>billing_question</category>
+    <priority>low</priority>
+    <status>new</status>
+    <assigned_to></assigned_to>
+    <tags>
+      <tag>discount</tag>
+      <tag>annual</tag>
+      <tag>subscription</tag>
+    </tags>
+    <metadata>
+      <source>chat</source>
+      <device_type>mobile</device_type>
+    </metadata>
+  </ticket>
+  <ticket>
+    <customer_id>CUST209</customer_id>
+    <customer_email>ivan.anderson@example.com</customer_email>
+    <customer_name>Ivan Anderson</customer_name>
+    <subject>Suggestion: Add CSV export feature</subject>
+    <description>Please add the ability to export data to CSV format. This would make it much easier to analyze data in Excel.</description>
+    <category>feature_request</category>
+    <priority>medium</priority>
+    <status>new</status>
+    <assigned_to></assigned_to>
+    <tags>
+      <tag>export</tag>
+      <tag>csv</tag>
+    </tags>
+    <metadata>
+      <source>web_form</source>
+      <browser>Edge</browser>
+      <device_type>desktop</device_type>
+    </metadata>
+  </ticket>
+  <ticket>
+    <customer_id>CUST210</customer_id>
+    <customer_email>jane.thomas@example.com</customer_email>
+    <customer_name>Jane Thomas</customer_name>
+    <subject>Form validation error</subject>
+    <description>The phone number field rejects valid phone numbers. Steps to reproduce: 1. Enter phone number in format (555) 123-4567 2. Submit form 3. Error: Invalid phone number. Expected: Should accept standard phone number formats.</description>
+    <category>bug_report</category>
+    <priority>medium</priority>
+    <status>new</status>
+    <assigned_to></assigned_to>
+    <tags>
+      <tag>validation</tag>
+      <tag>form</tag>
+      <tag>phone</tag>
+    </tags>
+    <metadata>
+      <source>web_form</source>
+      <browser>Chrome</browser>
+      <device_type>desktop</device_type>
+    </metadata>
+  </ticket>
+  <ticket>
+    <customer_id>CUST211</customer_id>
+    <customer_email>kyle.jackson@example.com</customer_email>
+    <customer_name>Kyle Jackson</customer_name>
+    <subject>Account locked after failed login attempts</subject>
+    <description>My account is locked because I entered the wrong password too many times. How can I unlock it?</description>
+    <category>account_access</category>
+    <priority>medium</priority>
+    <status>new</status>
+    <assigned_to></assigned_to>
+    <tags>
+      <tag>locked</tag>
+      <tag>login</tag>
+    </tags>
+    <metadata>
+      <source>email</source>
+      <device_type>desktop</device_type>
+    </metadata>
+  </ticket>
+  <ticket>
+    <customer_id>CUST212</customer_id>
+    <customer_email>lisa.white@example.com</customer_email>
+    <customer_name>Lisa White</customer_name>
+    <subject>Performance degradation</subject>
+    <description>The system has become noticeably slower over the past month. Operations that used to be instant now take several seconds.</description>
+    <category>technical_issue</category>
+    <priority>medium</priority>
+    <status>new</status>
+    <assigned_to></assigned_to>
+    <tags>
+      <tag>performance</tag>
+      <tag>slow</tag>
+    </tags>
+    <metadata>
+      <source>web_form</source>
+      <browser>Firefox</browser>
+      <device_type>desktop</device_type>
+    </metadata>
+  </ticket>
+  <ticket>
+    <customer_id>CUST213</customer_id>
+    <customer_email>mark.harris@example.com</customer_email>
+    <customer_name>Mark Harris</customer_name>
+    <subject>Invoice format question</subject>
+    <description>Can I get my invoices in PDF format instead of the current HTML format? Our accounting system requires PDFs.</description>
+    <category>billing_question</category>
+    <priority>low</priority>
+    <status>new</status>
+    <assigned_to></assigned_to>
+    <tags>
+      <tag>invoice</tag>
+      <tag>pdf</tag>
+      <tag>format</tag>
+    </tags>
+    <metadata>
+      <source>email</source>
+      <device_type>desktop</device_type>
+    </metadata>
+  </ticket>
+  <ticket>
+    <customer_id>CUST214</customer_id>
+    <customer_email>nancy.martin@example.com</customer_email>
+    <customer_name>Nancy Martin</customer_name>
+    <subject>Feature: Team collaboration tools</subject>
+    <description>We need better team collaboration features like shared workspaces and real-time editing.</description>
+    <category>feature_request</category>
+    <priority>medium</priority>
+    <status>new</status>
+    <assigned_to></assigned_to>
+    <tags>
+      <tag>collaboration</tag>
+      <tag>teams</tag>
+    </tags>
+    <metadata>
+      <source>web_form</source>
+      <browser>Chrome</browser>
+      <device_type>desktop</device_type>
+    </metadata>
+  </ticket>
+  <ticket>
+    <customer_id>CUST215</customer_id>
+    <customer_email>oscar.garcia@example.com</customer_email>
+    <customer_name>Oscar Garcia</customer_name>
+    <subject>Defect: Images not displaying in reports</subject>
+    <description>Images in generated reports are not displaying. Only broken image icons appear. Steps to reproduce: 1. Generate report with images 2. View report 3. Images don't load. Expected: Images should display correctly in reports.</description>
+    <category>bug_report</category>
+    <priority>high</priority>
+    <status>new</status>
+    <assigned_to></assigned_to>
+    <tags>
+      <tag>images</tag>
+      <tag>reports</tag>
+      <tag>defect</tag>
+    </tags>
+    <metadata>
+      <source>chat</source>
+      <device_type>desktop</device_type>
+    </metadata>
+  </ticket>
+  <ticket>
+    <customer_id>CUST216</customer_id>
+    <customer_email>paula.rodriguez@example.com</customer_email>
+    <customer_name>Paula Rodriguez</customer_name>
+    <subject>Email verification not working</subject>
+    <description>I never received the email verification link when I signed up. I've tried resending it multiple times.</description>
+    <category>account_access</category>
+    <priority>high</priority>
+    <status>new</status>
+    <assigned_to></assigned_to>
+    <tags>
+      <tag>verification</tag>
+      <tag>email</tag>
+    </tags>
+    <metadata>
+      <source>web_form</source>
+      <browser>Safari</browser>
+      <device_type>mobile</device_type>
+    </metadata>
+  </ticket>
+  <ticket>
+    <customer_id>CUST217</customer_id>
+    <customer_email>quinn.lopez@example.com</customer_email>
+    <customer_name>Quinn Lopez</customer_name>
+    <subject>API rate limit errors</subject>
+    <description>We're hitting API rate limits even though we're well below our quota. Getting 429 errors frequently.</description>
+    <category>technical_issue</category>
+    <priority>high</priority>
+    <status>new</status>
+    <assigned_to></assigned_to>
+    <tags>
+      <tag>api</tag>
+      <tag>rate-limit</tag>
+      <tag>error</tag>
+    </tags>
+    <metadata>
+      <source>email</source>
+      <device_type>desktop</device_type>
+    </metadata>
+  </ticket>
+  <ticket>
+    <customer_id>CUST218</customer_id>
+    <customer_email>rachel.gonzalez@example.com</customer_email>
+    <customer_name>Rachel Gonzalez</customer_name>
+    <subject>Payment method update</subject>
+    <description>I need to update my credit card on file but can't find where to do this in the settings.</description>
+    <category>billing_question</category>
+    <priority>medium</priority>
+    <status>new</status>
+    <assigned_to></assigned_to>
+    <tags>
+      <tag>payment</tag>
+      <tag>credit-card</tag>
+    </tags>
+    <metadata>
+      <source>chat</source>
+      <device_type>tablet</device_type>
+    </metadata>
+  </ticket>
+  <ticket>
+    <customer_id>CUST219</customer_id>
+    <customer_email>steve.wilson@example.com</customer_email>
+    <customer_name>Steve Wilson</customer_name>
+    <subject>Enhancement: Keyboard shortcuts</subject>
+    <description>Please add keyboard shortcuts for common actions. This would greatly improve productivity for power users.</description>
+    <category>feature_request</category>
+    <priority>low</priority>
+    <status>new</status>
+    <assigned_to></assigned_to>
+    <tags>
+      <tag>shortcuts</tag>
+      <tag>keyboard</tag>
+      <tag>productivity</tag>
+    </tags>
+    <metadata>
+      <source>web_form</source>
+      <browser>Chrome</browser>
+      <device_type>desktop</device_type>
+    </metadata>
+  </ticket>
+  <ticket>
+    <customer_id>CUST220</customer_id>
+    <customer_email>tina.lee@example.com</customer_email>
+    <customer_name>Tina Lee</customer_name>
+    <subject>Sorting bug in data table</subject>
+    <description>When sorting the data table by date, the results are not in correct order. Steps to reproduce: 1. Click date column header to sort 2. Check order 3. Dates are not sorted correctly. Expected: Dates should be in chronological order.</description>
+    <category>bug_report</category>
+    <priority>medium</priority>
+    <status>new</status>
+    <assigned_to></assigned_to>
+    <tags>
+      <tag>sorting</tag>
+      <tag>table</tag>
+      <tag>date</tag>
+    </tags>
+    <metadata>
+      <source>web_form</source>
+      <browser>Firefox</browser>
+      <device_type>desktop</device_type>
+    </metadata>
+  </ticket>
+  <ticket>
+    <customer_id>CUST221</customer_id>
+    <customer_email>uma.patel@example.com</customer_email>
+    <customer_name>Uma Patel</customer_name>
+    <subject>Security: Suspicious login detected</subject>
+    <description>I received a notification about a login from an unknown location. I didn't make this login attempt. Please secure my account.</description>
+    <category>account_access</category>
+    <priority>urgent</priority>
+    <status>new</status>
+    <assigned_to></assigned_to>
+    <tags>
+      <tag>security</tag>
+      <tag>suspicious</tag>
+      <tag>login</tag>
+    </tags>
+    <metadata>
+      <source>phone</source>
+      <device_type>mobile</device_type>
+    </metadata>
+  </ticket>
+  <ticket>
+    <customer_id>CUST222</customer_id>
+    <customer_email>victor.chen@example.com</customer_email>
+    <customer_name>Victor Chen</customer_name>
+    <subject>SSL certificate error</subject>
+    <description>Getting SSL certificate errors when trying to access the site. Browser says the connection is not secure.</description>
+    <category>technical_issue</category>
+    <priority>urgent</priority>
+    <status>new</status>
+    <assigned_to></assigned_to>
+    <tags>
+      <tag>ssl</tag>
+      <tag>certificate</tag>
+      <tag>security</tag>
+    </tags>
+    <metadata>
+      <source>email</source>
+      <device_type>desktop</device_type>
+    </metadata>
+  </ticket>
+  <ticket>
+    <customer_id>CUST223</customer_id>
+    <customer_email>wendy.kim@example.com</customer_email>
+    <customer_name>Wendy Kim</customer_name>
+    <subject>Proration for plan change</subject>
+    <description>If I upgrade my plan mid-month, will I be charged the full amount or will it be prorated?</description>
+    <category>billing_question</category>
+    <priority>low</priority>
+    <status>new</status>
+    <assigned_to></assigned_to>
+    <tags>
+      <tag>proration</tag>
+      <tag>upgrade</tag>
+    </tags>
+    <metadata>
+      <source>chat</source>
+      <device_type>desktop</device_type>
+    </metadata>
+  </ticket>
+  <ticket>
+    <customer_id>CUST224</customer_id>
+    <customer_email>xavier.nguyen@example.com</customer_email>
+    <customer_name>Xavier Nguyen</customer_name>
+    <subject>Request: API documentation</subject>
+    <description>We need comprehensive API documentation with examples. The current docs are incomplete.</description>
+    <category>feature_request</category>
+    <priority>medium</priority>
+    <status>new</status>
+    <assigned_to></assigned_to>
+    <tags>
+      <tag>api</tag>
+      <tag>documentation</tag>
+    </tags>
+    <metadata>
+      <source>email</source>
+      <device_type>desktop</device_type>
+    </metadata>
+  </ticket>
+  <ticket>
+    <customer_id>CUST225</customer_id>
+    <customer_email>yolanda.santos@example.com</customer_email>
+    <customer_name>Yolanda Santos</customer_name>
+    <subject>Regression: Export functionality broken</subject>
+    <description>The export feature stopped working after yesterday's update. Steps to reproduce: 1. Click export button 2. Nothing happens 3. No file is downloaded. Expected: File should download. This was working before the update.</description>
+    <category>bug_report</category>
+    <priority>high</priority>
+    <status>new</status>
+    <assigned_to></assigned_to>
+    <tags>
+      <tag>export</tag>
+      <tag>regression</tag>
+      <tag>download</tag>
+    </tags>
+    <metadata>
+      <source>web_form</source>
+      <browser>Chrome</browser>
+      <device_type>desktop</device_type>
+    </metadata>
+  </ticket>
+  <ticket>
+    <customer_id>CUST226</customer_id>
+    <customer_email>zack.rivera@example.com</customer_email>
+    <customer_name>Zack Rivera</customer_name>
+    <subject>Cannot change password</subject>
+    <description>When I try to change my password in settings, I get an error saying the current password is incorrect, but I know it's correct.</description>
+    <category>account_access</category>
+    <priority>medium</priority>
+    <status>new</status>
+    <assigned_to></assigned_to>
+    <tags>
+      <tag>password</tag>
+      <tag>settings</tag>
+    </tags>
+    <metadata>
+      <source>web_form</source>
+      <browser>Safari</browser>
+      <device_type>desktop</device_type>
+    </metadata>
+  </ticket>
+  <ticket>
+    <customer_id>CUST227</customer_id>
+    <customer_email>amy.flores@example.com</customer_email>
+    <customer_name>Amy Flores</customer_name>
+    <subject>Memory leak in application</subject>
+    <description>The application's memory usage keeps growing over time until the browser tab crashes. This happens after about 2 hours of use.</description>
+    <category>technical_issue</category>
+    <priority>high</priority>
+    <status>new</status>
+    <assigned_to></assigned_to>
+    <tags>
+      <tag>memory</tag>
+      <tag>leak</tag>
+      <tag>crash</tag>
+    </tags>
+    <metadata>
+      <source>email</source>
+      <device_type>desktop</device_type>
+    </metadata>
+  </ticket>
+  <ticket>
+    <customer_id>CUST228</customer_id>
+    <customer_email>brian.cruz@example.com</customer_email>
+    <customer_name>Brian Cruz</customer_name>
+    <subject>Tax documentation needed</subject>
+    <description>I need tax documentation for all payments made last year for our company's tax filing.</description>
+    <category>billing_question</category>
+    <priority>medium</priority>
+    <status>new</status>
+    <assigned_to></assigned_to>
+    <tags>
+      <tag>tax</tag>
+      <tag>documentation</tag>
+    </tags>
+    <metadata>
+      <source>email</source>
+      <device_type>desktop</device_type>
+    </metadata>
+  </ticket>
+  <ticket>
+    <customer_id>CUST229</customer_id>
+    <customer_email>carol.reyes@example.com</customer_email>
+    <customer_name>Carol Reyes</customer_name>
+    <subject>Wish: Customizable dashboard</subject>
+    <description>It would be nice if we could customize the dashboard layout and choose which widgets to display.</description>
+    <category>feature_request</category>
+    <priority>low</priority>
+    <status>new</status>
+    <assigned_to></assigned_to>
+    <tags>
+      <tag>dashboard</tag>
+      <tag>customization</tag>
+    </tags>
+    <metadata>
+      <source>web_form</source>
+      <browser>Chrome</browser>
+      <device_type>desktop</device_type>
+    </metadata>
+  </ticket>
+  <ticket>
+    <customer_id>CUST230</customer_id>
+    <customer_email>daniel.morales@example.com</customer_email>
+    <customer_name>Daniel Morales</customer_name>
+    <subject>Defect: Timezone conversion incorrect</subject>
+    <description>Times are being converted incorrectly between timezones. Events scheduled for 2pm EST are showing as 3pm EST. Steps to reproduce: 1. Create event in EST 2. View in EST 3. Time is off by 1 hour. Expected: Time should match what was entered.</description>
+    <category>bug_report</category>
+    <priority>medium</priority>
+    <status>new</status>
+    <assigned_to></assigned_to>
+    <tags>
+      <tag>timezone</tag>
+      <tag>time</tag>
+      <tag>conversion</tag>
+    </tags>
+    <metadata>
+      <source>web_form</source>
+      <browser>Firefox</browser>
+      <device_type>desktop</device_type>
+    </metadata>
+  </ticket>
+  <ticket>
+    <customer_id>CUST231</customer_id>
+    <customer_email>noah.lopez@example.com</customer_email>
+    <customer_name>Noah Lopez</customer_name>
+    <subject>Authentication problem</subject>
+    <description>I can't sign in to my account. The 2FA code is not being sent to my phone</description>
+    <status>new</status>
+    <assigned_to></assigned_to>
+    <tags>
+      <tag>authentication</tag>
+      <tag>2fa</tag>
+    </tags>
+    <metadata>
+      <source>web_form</source>
+      <browser>Chrome</browser>
+      <device_type>desktop</device_type>
+    </metadata>
+  </ticket>
+  <ticket>
+    <customer_id>CUST232</customer_id>
+    <customer_email>isabella.gonzalez@example.com</customer_email>
+    <customer_name>Isabella Gonzalez</customer_name>
+    <subject>App keeps freezing</subject>
+    <description>The application freezes and becomes unresponsive every few minutes. I have to force quit and restart</description>
+    <status>new</status>
+    <assigned_to></assigned_to>
+    <tags>
+      <tag>freeze</tag>
+      <tag>crash</tag>
+    </tags>
+    <metadata>
+      <source>email</source>
+      <device_type>desktop</device_type>
+    </metadata>
+  </ticket>
+  <ticket>
+    <customer_id>CUST233</customer_id>
+    <customer_email>ethan.perez@example.com</customer_email>
+    <customer_name>Ethan Perez</customer_name>
+    <subject>Invoice question</subject>
+    <description>I need clarification on the charges on my latest invoice. Some items don't match my subscription plan</description>
+    <status>new</status>
+    <assigned_to></assigned_to>
+    <tags>
+      <tag>invoice</tag>
+      <tag>billing</tag>
+    </tags>
+    <metadata>
+      <source>chat</source>
+      <device_type>mobile</device_type>
+    </metadata>
+  </ticket>
+  <ticket>
+    <customer_id>CUST234</customer_id>
+    <customer_email>charlotte.rivera@example.com</customer_email>
+    <customer_name>Charlotte Rivera</customer_name>
+    <subject>Suggestion for improvement</subject>
+    <description>It would be nice if you could add support for exporting data to Excel format</description>
+    <status>new</status>
+    <assigned_to></assigned_to>
+    <tags>
+      <tag>suggestion</tag>
+      <tag>export</tag>
+    </tags>
+    <metadata>
+      <source>web_form</source>
+      <browser>Firefox</browser>
+      <device_type>desktop</device_type>
+    </metadata>
+  </ticket>
+  <ticket>
+    <customer_id>CUST235</customer_id>
+    <customer_email>mason.torres@example.com</customer_email>
+    <customer_name>Mason Torres</customer_name>
+    <subject>Bug with form validation</subject>
+    <description>Steps to reproduce: 1. Open registration form 2. Enter valid data 3. Click submit 4. Form shows error even though all fields are correct. Expected: Form should submit successfully</description>
+    <status>new</status>
+    <assigned_to></assigned_to>
+    <tags>
+      <tag>bug</tag>
+      <tag>form</tag>
+      <tag>validation</tag>
+    </tags>
+    <metadata>
+      <source>web_form</source>
+      <browser>Safari</browser>
+      <device_type>desktop</device_type>
+    </metadata>
+  </ticket>
+</tickets>

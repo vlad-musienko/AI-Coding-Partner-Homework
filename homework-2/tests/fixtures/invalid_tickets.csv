@@ -1,0 +1,4 @@
+customer_id,customer_email,customer_name,subject,description,category,priority,status,assigned_to,tags,source,browser,device_type
+CUST001,invalid-email,John Doe,Subject,Short desc,account_access,urgent,new,,"login",web_form,Chrome,desktop
+CUST002,jane@email.com,,No Name,This is a description that is long enough,technical_issue,high,new,,"test",web_form,Firefox,desktop
+CUST003,bob@email.com,Bob Wilson,This subject is way too long and exceeds the maximum allowed length of 200 characters which should cause a validation error when we try to import this ticket into the system because the subject field has a strict limit,Valid description here,billing_question,medium,new,,"billing",email,,
