@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tickets>
+  <ticket>
+    <customer_id>CUST201</customer_id>
+    <customer_email>adam.smith@example.com</customer_email>
+    <customer_name>Adam Smith</customer_name>
+    <subject>Login issues after password change</subject>
+    <description>After changing my password, I can no longer login to my account.</description>
+    <category>account_access</category>
+    <priority>high</priority>
+    <status>new</status>
+    <assigned_to></assigned_to>
+    <tags>
+      <tag>login</tag>
+      <tag>password</tag>
+    </tags>
+    <metadata>
+      <source>web_form</source>
+      <browser>Chrome</browser>
+      <device_type>desktop</device_type>
+    </metadata>
+  </ticket>
+  <ticket>
+    <customer_id>CUST202</customer_id>
+    <customer_email>betty.jones@example.com</customer_email>
+    <customer_name>Betty Jones</customer_name>
+    <subject>Application crashes on mobile</subject>
+    <description>The mobile app crashes every time I try to open the reports section.</description>
+    <category>technical_issue</category>
+    <priority>high</priority>
+    <status>new</status>
+    <assigned_to></assigned_to>
+    <tags>
+      <tag>crash</tag>
+      <tag>mobile</tag>
+    </tags>
+    <metadata>
+      <source>email</source>
+      <device_type>mobile</device_type>
+    </metadata>
+  </ticket>
+</tickets>

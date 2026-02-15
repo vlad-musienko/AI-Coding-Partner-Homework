@@ -1,0 +1,378 @@
+{
+  "tickets": [
+    {
+      "customer_id": "CUST101",
+      "customer_email": "alex.johnson@company.com",
+      "customer_name": "Alex Johnson",
+      "subject": "Unable to reset password",
+      "description": "I've tried to reset my password multiple times but the reset link doesn't work. When I click it, I get an error saying the link is invalid or expired.",
+      "category": "account_access",
+      "priority": "high",
+      "status": "new",
+      "assigned_to": null,
+      "tags": ["password", "reset", "authentication"],
+      "metadata": {
+        "source": "web_form",
+        "browser": "Chrome",
+        "device_type": "desktop"
+      }
+    },
+    {
+      "customer_id": "CUST102",
+      "customer_email": "beth.williams@company.com",
+      "customer_name": "Beth Williams",
+      "subject": "Application freezes frequently",
+      "description": "The application freezes every 10-15 minutes and I have to restart it. This is making it very difficult to get work done.",
+      "category": "technical_issue",
+      "priority": "high",
+      "status": "new",
+      "assigned_to": null,
+      "tags": ["freeze", "crash", "performance"],
+      "metadata": {
+        "source": "email",
+        "browser": "Firefox",
+        "device_type": "desktop"
+      }
+    },
+    {
+      "customer_id": "CUST103",
+      "customer_email": "carlos.martinez@company.com",
+      "customer_name": "Carlos Martinez",
+      "subject": "Incorrect billing amount",
+      "description": "My credit card was charged $199 but my plan should only be $149 per month. Please review and refund the difference.",
+      "category": "billing_question",
+      "priority": "medium",
+      "status": "new",
+      "assigned_to": null,
+      "tags": ["billing", "charge", "refund"],
+      "metadata": {
+        "source": "chat",
+        "device_type": "mobile"
+      }
+    },
+    {
+      "customer_id": "CUST104",
+      "customer_email": "diana.chen@company.com",
+      "customer_name": "Diana Chen",
+      "subject": "Request: Add calendar integration",
+      "description": "It would be extremely helpful if you could add integration with Google Calendar so we can sync our schedules automatically.",
+      "category": "feature_request",
+      "priority": "low",
+      "status": "new",
+      "assigned_to": null,
+      "tags": ["calendar", "integration", "google"],
+      "metadata": {
+        "source": "web_form",
+        "browser": "Safari",
+        "device_type": "desktop"
+      }
+    },
+    {
+      "customer_id": "CUST105",
+      "customer_email": "eric.thompson@company.com",
+      "customer_name": "Eric Thompson",
+      "subject": "Bug: Dashboard widgets not updating",
+      "description": "The dashboard widgets show stale data. Steps to reproduce: 1. Open dashboard 2. Make changes in another section 3. Return to dashboard 4. Data hasn't updated. Expected: Dashboard should show current data.",
+      "category": "bug_report",
+      "priority": "medium",
+      "status": "new",
+      "assigned_to": null,
+      "tags": ["dashboard", "bug", "refresh"],
+      "metadata": {
+        "source": "web_form",
+        "browser": "Chrome",
+        "device_type": "desktop"
+      }
+    },
+    {
+      "customer_id": "CUST106",
+      "customer_email": "fiona.davis@company.com",
+      "customer_name": "Fiona Davis",
+      "subject": "Critical: Cannot access account",
+      "description": "I urgently need to access my account for an important presentation but I'm completely locked out. This is blocking my work.",
+      "category": "account_access",
+      "priority": "urgent",
+      "status": "new",
+      "assigned_to": null,
+      "tags": ["locked", "urgent", "blocking"],
+      "metadata": {
+        "source": "phone",
+        "device_type": "mobile"
+      }
+    },
+    {
+      "customer_id": "CUST107",
+      "customer_email": "george.wilson@company.com",
+      "customer_name": "George Wilson",
+      "subject": "Error 403 when uploading files",
+      "description": "Every time I try to upload a file I get a 403 Forbidden error. I've tried different file types and sizes but same result.",
+      "category": "technical_issue",
+      "priority": "high",
+      "status": "new",
+      "assigned_to": null,
+      "tags": ["upload", "error", "403"],
+      "metadata": {
+        "source": "web_form",
+        "browser": "Edge",
+        "device_type": "desktop"
+      }
+    },
+    {
+      "customer_id": "CUST108",
+      "customer_email": "helen.moore@company.com",
+      "customer_name": "Helen Moore",
+      "subject": "Need invoice for last 3 months",
+      "description": "I need invoices for the last 3 months for our accounting department. Can you send them to this email?",
+      "category": "billing_question",
+      "priority": "low",
+      "status": "new",
+      "assigned_to": null,
+      "tags": ["invoice", "accounting"],
+      "metadata": {
+        "source": "email",
+        "device_type": "desktop"
+      }
+    },
+    {
+      "customer_id": "CUST109",
+      "customer_email": "ian.taylor@company.com",
+      "customer_name": "Ian Taylor",
+      "subject": "Suggestion: Dark theme",
+      "description": "I use the app late at night and the bright white theme hurts my eyes. A dark theme option would be much appreciated.",
+      "category": "feature_request",
+      "priority": "low",
+      "status": "new",
+      "assigned_to": null,
+      "tags": ["theme", "dark-mode", "ui"],
+      "metadata": {
+        "source": "web_form",
+        "browser": "Chrome",
+        "device_type": "desktop"
+      }
+    },
+    {
+      "customer_id": "CUST110",
+      "customer_email": "julia.anderson@company.com",
+      "customer_name": "Julia Anderson",
+      "subject": "Defect: Filters reset on page reload",
+      "description": "When I set filters on the list page and then reload the browser, all filters are reset. Steps to reproduce: 1. Set filters 2. Reload page 3. Filters are gone. Expected: Filters should persist across page reloads.",
+      "category": "bug_report",
+      "priority": "low",
+      "status": "new",
+      "assigned_to": null,
+      "tags": ["filters", "persistence", "defect"],
+      "metadata": {
+        "source": "web_form",
+        "browser": "Firefox",
+        "device_type": "desktop"
+      }
+    },
+    {
+      "customer_id": "CUST111",
+      "customer_email": "kevin.brown@company.com",
+      "customer_name": "Kevin Brown",
+      "subject": "2FA authentication failing",
+      "description": "The two-factor authentication codes from my authenticator app are being rejected as invalid. I can't login to my account.",
+      "category": "account_access",
+      "priority": "urgent",
+      "status": "new",
+      "assigned_to": null,
+      "tags": ["2fa", "authentication", "login"],
+      "metadata": {
+        "source": "chat",
+        "device_type": "mobile"
+      }
+    },
+    {
+      "customer_id": "CUST112",
+      "customer_email": "linda.garcia@company.com",
+      "customer_name": "Linda Garcia",
+      "subject": "Slow response times",
+      "description": "The application has been very slow lately. Simple operations that used to take seconds now take minutes. This is affecting our team's productivity.",
+      "category": "technical_issue",
+      "priority": "high",
+      "status": "new",
+      "assigned_to": null,
+      "tags": ["performance", "slow", "timeout"],
+      "metadata": {
+        "source": "email",
+        "device_type": "desktop"
+      }
+    },
+    {
+      "customer_id": "CUST113",
+      "customer_email": "michael.rodriguez@company.com",
+      "customer_name": "Michael Rodriguez",
+      "subject": "Upgrade plan pricing",
+      "description": "I'm interested in upgrading to the premium plan. What's the pricing and what additional features do I get?",
+      "category": "billing_question",
+      "priority": "low",
+      "status": "new",
+      "assigned_to": null,
+      "tags": ["upgrade", "pricing", "plan"],
+      "metadata": {
+        "source": "web_form",
+        "browser": "Safari",
+        "device_type": "tablet"
+      }
+    },
+    {
+      "customer_id": "CUST114",
+      "customer_email": "nancy.lee@company.com",
+      "customer_name": "Nancy Lee",
+      "subject": "Feature: Bulk export",
+      "description": "We need the ability to export all our data in bulk rather than having to export one item at a time. This would save us hours of work.",
+      "category": "feature_request",
+      "priority": "medium",
+      "status": "new",
+      "assigned_to": null,
+      "tags": ["export", "bulk", "data"],
+      "metadata": {
+        "source": "email",
+        "device_type": "desktop"
+      }
+    },
+    {
+      "customer_id": "CUST115",
+      "customer_email": "oscar.martinez@company.com",
+      "customer_name": "Oscar Martinez",
+      "subject": "Regression: Search broken after update",
+      "description": "After the latest update, the search function is completely broken. It returns no results for any query. This was working fine before the update. Steps to reproduce: 1. Enter any search term 2. Click search 3. No results returned even for data that definitely exists.",
+      "category": "bug_report",
+      "priority": "urgent",
+      "status": "new",
+      "assigned_to": null,
+      "tags": ["search", "regression", "critical"],
+      "metadata": {
+        "source": "web_form",
+        "browser": "Chrome",
+        "device_type": "desktop"
+      }
+    },
+    {
+      "customer_id": "CUST116",
+      "customer_email": "patricia.white@company.com",
+      "customer_name": "Patricia White",
+      "subject": "Account verification email not received",
+      "description": "I signed up for an account but never received the verification email. I've checked spam folder and tried resending multiple times.",
+      "category": "account_access",
+      "priority": "medium",
+      "status": "new",
+      "assigned_to": null,
+      "tags": ["verification", "email", "signup"],
+      "metadata": {
+        "source": "web_form",
+        "browser": "Firefox",
+        "device_type": "desktop"
+      }
+    },
+    {
+      "customer_id": "CUST117",
+      "customer_email": "quinn.harris@company.com",
+      "customer_name": "Quinn Harris",
+      "subject": "Connection errors",
+      "description": "I'm getting frequent connection errors and timeouts. The error message says 'Failed to connect to server'. This happens several times per hour.",
+      "category": "technical_issue",
+      "priority": "high",
+      "status": "new",
+      "assigned_to": null,
+      "tags": ["connection", "timeout", "error"],
+      "metadata": {
+        "source": "chat",
+        "device_type": "desktop"
+      }
+    },
+    {
+      "customer_id": "CUST118",
+      "customer_email": "rachel.clark@company.com",
+      "customer_name": "Rachel Clark",
+      "subject": "Payment declined but account charged",
+      "description": "My payment was declined according to the app, but my bank shows the charge went through. Now I can't use the service and I've been charged.",
+      "category": "billing_question",
+      "priority": "urgent",
+      "status": "new",
+      "assigned_to": null,
+      "tags": ["payment", "charge", "declined"],
+      "metadata": {
+        "source": "phone",
+        "device_type": "mobile"
+      }
+    },
+    {
+      "customer_id": "CUST119",
+      "customer_email": "steve.lewis@company.com",
+      "customer_name": "Steve Lewis",
+      "subject": "Enhancement: Mobile app needed",
+      "description": "The mobile web version is difficult to use. A native mobile app would greatly improve the user experience for mobile users.",
+      "category": "feature_request",
+      "priority": "medium",
+      "status": "new",
+      "assigned_to": null,
+      "tags": ["mobile", "app", "enhancement"],
+      "metadata": {
+        "source": "email",
+        "device_type": "desktop"
+      }
+    },
+    {
+      "customer_id": "CUST120",
+      "customer_email": "tara.walker@company.com",
+      "customer_name": "Tara Walker",
+      "subject": "Bug: Incorrect date display",
+      "description": "Dates are displaying in the wrong format and timezone. All dates are showing as one day earlier than they should be. Steps to reproduce: 1. Create item with today's date 2. View item 3. Date shows as yesterday. Expected: Date should match what was entered.",
+      "category": "bug_report",
+      "priority": "medium",
+      "status": "new",
+      "assigned_to": null,
+      "tags": ["date", "timezone", "display"],
+      "metadata": {
+        "source": "web_form",
+        "browser": "Safari",
+        "device_type": "desktop"
+      }
+    },
+    {
+      "customer_id": "CUST121",
+      "customer_email": "ava.white@company.com",
+      "customer_name": "Ava White",
+      "subject": "Can't login to my account",
+      "description": "I've been locked out of my account after entering wrong password too many times",
+      "status": "new",
+      "assigned_to": null,
+      "tags": ["login", "locked"],
+      "metadata": {
+        "source": "web_form",
+        "browser": "Chrome",
+        "device_type": "desktop"
+      }
+    },
+    {
+      "customer_id": "CUST122",
+      "customer_email": "liam.harris@company.com",
+      "customer_name": "Liam Harris",
+      "subject": "Production system is down",
+      "description": "Critical issue - our production environment is completely down and customers cannot access the service",
+      "status": "new",
+      "assigned_to": null,
+      "tags": ["production", "critical"],
+      "metadata": {
+        "source": "phone",
+        "device_type": "mobile"
+      }
+    },
+    {
+      "customer_id": "CUST123",
+      "customer_email": "mia.clark@company.com",
+      "customer_name": "Mia Clark",
+      "subject": "Refund for double charge",
+      "description": "I was charged twice for my subscription this month. Please process a refund for the duplicate payment",
+      "status": "new",
+      "assigned_to": null,
+      "tags": ["refund", "billing"],
+      "metadata": {
+        "source": "email",
+        "device_type": "desktop"
+      }
+    }
+  ]
+}

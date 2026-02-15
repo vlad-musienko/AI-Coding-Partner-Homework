@@ -1,0 +1,132 @@
+### Customer Support System API - Sample Requests
+### Use with REST Client extension in VS Code or similar HTTP client
+
+@baseUrl = http://localhost:3000
+
+### 1. Create a new ticket with auto-classification
+POST {{baseUrl}}/tickets
+Content-Type: application/json
+
+{
+  "customer_id": "CUST001",
+  "customer_email": "john.doe@example.com",
+  "customer_name": "John Doe",
+  "subject": "Cannot login to account",
+  "description": "I forgot my password and cannot access my account",
+  "metadata": {
+    "source": "web_form",
+    "browser": "Chrome",
+    "device_type": "desktop"
+  },
+  "auto_classify": true
+}
+
+### 2. Create a billing question ticket
+POST {{baseUrl}}/tickets
+Content-Type: application/json
+
+{
+  "customer_id": "CUST002",
+  "customer_email": "jane.smith@example.com",
+  "customer_name": "Jane Smith",
+  "subject": "Refund request for duplicate charge",
+  "description": "I was charged twice for my subscription. Please refund the duplicate payment.",
+  "metadata": {
+    "source": "email",
+    "account_type": "premium"
+  },
+  "auto_classify": true
+}
+
+### 3. Create a technical issue ticket
+POST {{baseUrl}}/tickets
+Content-Type: application/json
+
+{
+  "customer_id": "CUST003",
+  "customer_email": "tech.user@example.com",
+  "customer_name": "Tech User",
+  "subject": "Application crashes on startup",
+  "description": "The app crashes immediately after I click the launch icon. Error code: 0x80004005",
+  "metadata": {
+    "source": "mobile_app",
+    "os": "iOS",
+    "app_version": "2.1.0"
+  },
+  "auto_classify": true
+}
+
+### 4. List all tickets
+GET {{baseUrl}}/tickets
+
+### 5. Get a specific ticket (replace {id} with actual ticket ID)
+GET {{baseUrl}}/tickets/{id}
+
+### 6. Filter tickets by category
+GET {{baseUrl}}/tickets?category=billing_question
+
+### 7. Filter tickets by priority
+GET {{baseUrl}}/tickets?priority=high
+
+### 8. Filter tickets by status
+GET {{baseUrl}}/tickets?status=open
+
+### 9. Filter tickets with multiple parameters
+GET {{baseUrl}}/tickets?category=technical_issue&priority=urgent&status=open
+
+### 10. Update a ticket (replace {id} with actual ticket ID)
+PUT {{baseUrl}}/tickets/{id}
+Content-Type: application/json
+
+{
+  "status": "in_progress",
+  "priority": "high"
+}
+
+### 11. Delete a ticket (replace {id} with actual ticket ID)
+DELETE {{baseUrl}}/tickets/{id}
+
+### 12. Import tickets from CSV
+POST {{baseUrl}}/tickets/import
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundary7MA4YWxkTrZu0gW
+
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="file"; filename="sample_tickets.csv"
+Content-Type: text/csv
+
+< ./sample-data/sample_tickets.csv
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="auto_classify"
+
+true
+------WebKitFormBoundary7MA4YWxkTrZu0gW--
+
+### 13. Import tickets from JSON
+POST {{baseUrl}}/tickets/import
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundary7MA4YWxkTrZu0gW
+
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="file"; filename="sample_tickets.json"
+Content-Type: application/json
+
+< ./sample-data/sample_tickets.json
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="auto_classify"
+
+true
+------WebKitFormBoundary7MA4YWxkTrZu0gW--
+
+### 14. Import tickets from XML
+POST {{baseUrl}}/tickets/import
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundary7MA4YWxkTrZu0gW
+
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="file"; filename="sample_tickets.xml"
+Content-Type: application/xml
+
+< ./sample-data/sample_tickets.xml
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="auto_classify"
+
+true
+------WebKitFormBoundary7MA4YWxkTrZu0gW--

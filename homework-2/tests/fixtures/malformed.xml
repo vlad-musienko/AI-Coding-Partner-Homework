@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tickets>
+  <ticket>
+    <customer_id>CUST201</customer_id>
+    <customer_email>test@test.com</customer_email>
+    <unclosed_tag>
+  </ticket>
+</tickets>

@@ -1,0 +1,32 @@
+{
+  "tickets": [
+    {
+      "customer_id": "CUST101",
+      "customer_email": "not-an-email",
+      "customer_name": "Alex Johnson",
+      "subject": "Test",
+      "description": "Short",
+      "category": "account_access",
+      "priority": "high",
+      "status": "new",
+      "tags": ["test"],
+      "metadata": {
+        "source": "web_form"
+      }
+    },
+    {
+      "customer_id": "CUST102",
+      "customer_email": "beth@company.com",
+      "customer_name": "Beth Williams",
+      "subject": "",
+      "description": "This is a valid description",
+      "category": "invalid_category",
+      "priority": "high",
+      "status": "new",
+      "tags": [],
+      "metadata": {
+        "source": "email"
+      }
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "tickets": [
+    {
+      "customer_id": "CUST101",
+      "customer_email": "alex.johnson@company.com",
+      "customer_name": "Alex Johnson",
+      "subject": "Unable to reset password",
+      "description": "I've tried to reset my password multiple times but the reset link doesn't work.",
+      "category": "account_access",
+      "priority": "high",
+      "status": "new",
+      "assigned_to": null,
+      "tags": ["password", "reset"],
+      "metadata": {
+        "source": "web_form",
+        "browser": "Chrome",
+        "device_type": "desktop"
+      }
+    },
+    {
+      "customer_id": "CUST102",
+      "customer_email": "beth.williams@company.com",
+      "customer_name": "Beth Williams",
+      "subject": "Application freezes frequently",
+      "description": "The application freezes every 10-15 minutes and I have to restart it.",
+      "category": "technical_issue",
+      "priority": "high",
+      "status": "new",
+      "assigned_to": null,
+      "tags": ["freeze", "crash"],
+      "metadata": {
+        "source": "email",
+        "device_type": "desktop"
+      }
+    }
+  ]
+}
