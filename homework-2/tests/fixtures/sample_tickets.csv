@@ -1,0 +1,4 @@
+customer_id,customer_email,customer_name,subject,description,category,priority,status,assigned_to,tags,source,browser,device_type
+CUST001,john.doe@email.com,John Doe,Can't login to my account,I've been trying to login for the past hour but keep getting an error message.,account_access,urgent,new,,"login,password",web_form,Chrome,desktop
+CUST002,jane.smith@email.com,Jane Smith,Slow loading times,The application has been extremely slow for the past few days.,technical_issue,high,new,,"performance,slow",web_form,Firefox,desktop
+CUST003,bob.wilson@email.com,Bob Wilson,Question about my invoice,I received an invoice for $150 but I thought my subscription was $99/month.,billing_question,medium,new,,"billing,invoice",email,,

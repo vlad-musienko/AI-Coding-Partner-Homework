@@ -1,0 +1,9 @@
+{
+  "tickets": [
+    {
+      "customer_id": "CUST101",
+      "customer_email": "test@test.com"
+      "missing_comma": true
+    }
+  ]
+}
